@@ -2,15 +2,10 @@
 using System.Collections.ObjectModel;
 using System.Linq;
 
-namespace Matcher
+namespace Helpers
 {
-    public static class CollectionMatcher<T>
+    public static class ExportCollectionMatcher<T> where T : class
     {
-        //public static IEnumerable<T> Match(IEnumerable<T> expectedItems)
-        //{
-        //    return CollectionMatcher<IEnumerable<T>, T>.Match(expectedItems);
-        //}
-
         public static bool Match(IEnumerable<T> actualItems, IEnumerable<T> expectedItems)
         {
             if (actualItems == null && expectedItems == null)
@@ -23,22 +18,21 @@ namespace Matcher
                 return false;
             }
 
-            var actualItemsCount = actualItems.Count();
-            var expectedItemsCount = expectedItems.Count();
+            var IsMatch = false;
 
-            if (actualItemsCount != expectedItemsCount)
+            foreach (var actualItem in actualItems)
             {
-                return false;
-            }
+                foreach (var expectedItem in expectedItems)
+                {
+                    if (ExportPropertyMatcher<T>.Match(actualItem, expectedItem))
+                    {
+                        IsMatch = true;
+                        expectedItems.ToList().Remove(expectedItem);
+                        break;
+                    }
+                }
 
-            // Assumption is that the order should always be same in actual and expected. Hence we directly compared the values.
-            for (int i = 0; i < actualItemsCount; i++)
-            {
-                var actual = actualItems.ElementAt(i);
-                var expected = expectedItems.ElementAt(i);
-
-                var match = PropertyMatcher<T>.Match(actual, expected);
-                if (!match)
+                if (!IsMatch)
                 {
                     return false;
                 }
@@ -46,43 +40,11 @@ namespace Matcher
 
             return true;
         }
+
     }
 
-    //public static class CollectionMatcher<TCollection, T> where TCollection : IEnumerable<T>
-    //{
-    //    public static TCollection Match(TCollection expectedItems)
-    //    {
-    //        return Moq.Match.Create<TCollection>(actualItems =>
-    //        {
-    //            if (actualItems == null && expectedItems == null)
-    //                return true;
-
-    //            if (actualItems == null || expectedItems == null)
-    //                return false;
-
-    //            var num1 = actualItems.Count();
-    //            var num2 = expectedItems.Count();
-
-    //            if (num1 != num2)
-    //                return false;
-
-    //            for (var index = 0; index < num1; ++index)
-    //            {
-    //                if (!PropertyMatcher<T>.Match(actualItems.ElementAt<T>(index), expectedItems.ElementAt<T>(index)))
-    //                    return false;
-    //            }
-    //            return true;
-    //        });
-    //    }
-    //}
-
-    public static class PropertyMatcher<T>
+    public static class ExportPropertyMatcher<T> where T : class
     {
-        //public static T Match(T expected)
-        //{
-        //    return Moq.Match.Create<T>(actual => Match(actual, expected));
-        //}
-
         public static bool Match(T actual, T expected)
         {
             if (typeof(T).IsValueType)
@@ -117,7 +79,7 @@ namespace Matcher
                 }
                 else if (!(property.PropertyType == typeof(Collection<string>)))
                 {
-                    if (!Equals(property.GetValue(actual), property.GetValue(expected)))
+                    if (!Equals(property.GetValue(actual).ToString().Trim(), property.GetValue(expected).ToString().Trim()))
                         return false;
                 }
             }
