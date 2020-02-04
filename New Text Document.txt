@@ -1,0 +1,48 @@
+using Newtonsoft.Json.Linq;
+using System;
+using System.Collections.Concurrent;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace CalculatorApp
+{
+    internal class Program
+    {
+        private static void Main(string[] args)
+        {
+           
+            var str = File.ReadAllText(@"C:\Users\xbbn3sm\source\repos\Calculator\CalculatorApp\json1.json");
+            AddTranslations(str);
+            foreach (var item in collection)
+            {
+                Console.WriteLine(item.Key + ":" + item.Value);
+            }
+            Console.ReadLine();
+        }
+
+        public static Dictionary<string, string> collection = new Dictionary<string, string>();
+        public static void AddTranslations(string strJson)
+        {
+            var json = JObject.Parse(strJson);
+            foreach (JProperty item in json.Properties())
+            {
+                if (item.Descendants().Count() > 1)
+                {
+                    AddTranslations(item.Value.ToString());
+                }
+                else
+                {
+
+                    collection.Add(item.Name, Convert.ToString(item.Value.ToString()));
+
+
+                }
+            }
+        }
+    }
+
+
+}
