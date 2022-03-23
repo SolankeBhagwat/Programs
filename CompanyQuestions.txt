@@ -1,0 +1,207 @@
+what are the behaviroul skills
+
+============================JCI============================
+OOAD
+exe vs dll
+globalization and localization in asp.net
+State management in core
+object role modeling
+debug vs release c# build diff
+ihostingenvironment in .net core
+what is observable in angular
+crsf attack
+event in c#
+
+TPL & async await
+
+
+===High Priority
+https://www.google.com/search?ei=uL99X52nG5GKmgeJ-7vQBA&q=idempotent+put+vs+post&oq=idempotent+in+put&gs_lcp=CgZwc3ktYWIQAxgBMgkIABDJAxAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeOgQIABBHOgcIABDJAxBDOgcIABCxAxBDOgQIABBDOgUIABCxAzoCCAA6BQgAEMkDOggIABAWEAoQHlDqU1iuYGCRa2gAcAJ4AIAByAGIAekJkgEFMC42LjGYAQCgAQGqAQdnd3Mtd2l6yAEIwAEB&sclient=psy-ab
+
+https://www.google.com/search?source=hp&ei=e5J-X9K_KuHhz7sPsfOq0Ag&q=idempotent+patch+web+api&oq=idempotent+patch+web+api&gs_lcp=CgZwc3ktYWIQAzIICCEQFhAdEB46BQgAELEDOggIABCxAxCDAToCCAA6CAgAELEDEMkDOgsILhCxAxDHARCjAjoHCAAQyQMQCjoECAAQCjoNCAAQsQMQyQMQRhD5AToFCAAQyQM6BggAEBYQHjoJCAAQyQMQFhAeOgUIIRCgAVB7WMJYYMpaaABwAHgAgAGEA4gB1SCSAQgwLjEwLjguMZgBAKABAaoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwiS6Z-1kaTsAhXh8HMBHbG5CooQ4dUDCAc&uact=5
+
+https://softwareengineering.stackexchange.com/questions/260818/why-patch-method-is-not-idempotent
+
+=================First American Bank
+assert for void method c# x unit
+Keep key in secret \ .net core secret key
+vulnerability how you check and resolve 
+cross site scripting example 
+XSS
+aot in angular
+module in angular
+Services in angular
+git vs tfs differences
+one interface 2 classes in .net core how to reslve dependacny 
+sequence diagram \ UML Diagram or in user story how you add this that developer know how to do code with class and all 
+is it good to have business logic in repo .net
+
+========================CDK Global===============
+Liskow 
+async await
+
+TPL
+
+https://www.google.com/search?source=hp&ei=gVaBX6-iOamU4-EPqJmyyA8&q=queuing+services+meaning&oq=queuing+services+mea&gs_lcp=CgZwc3ktYWIQAxgAMgkIABDJAxAWEB4yBggAEBYQHjoICAAQsQMQyQM6BQgAELEDOggILhDHARCjAjoCCAA6BQguELEDOgIILjoHCAAQyQMQCjoECAAQCjoICAAQFhAKEB46BQgAEMkDUL8BWKm5AWD8xQFoAHAAeACAAfgCiAHXFpIBBzAuOS4zLjKYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab
+
+https://www.google.com/search?ei=f1aBX5_7B-2O4-EP6PyD-Ag&q=difference+between+sync+vs+async+in+c%23&oq=difference+between+sync+vs+asy&gs_lcp=CgZwc3ktYWIQAxgCMggIIRAWEB0QHjIICCEQFhAdEB4yCAghEBYQHRAeMggIIRAWEB0QHjIICCEQFhAdEB4yCAghEBYQHRAeMggIIRAWEB0QHjIICCEQFhAdEB4yCAghEBYQHRAeMggIIRAWEB0QHjoECAAQRzoECAAQQzoCCAA6CggAELEDEIMBEEM6BQgAELEDOggIABCxAxCDAToICC4QxwEQowI6BwgAEMkDEEM6CAgAELEDEMkDOgUIABDJAzoECCEQFToJCAAQyQMQFhAeOgYIABAWEB46BQghEKABULzRA1ilgQVg7pYFaAFwAngAgAHmAYgBlhmSAQYwLjYuMTCYAQCgAQGqAQdnd3Mtd2l6yAEIwAEB&sclient=psy-ab
+
+https://stackoverflow.com/questions/38745700/whats-a-sync-and-async-method
+
+https://www.codeproject.com/Articles/127660/What-are-actually-synchronous-asynchronous-operati
+
+https://www.google.com/search?source=hp&ei=u1eBX8vqEvib4-EP2OSxoA0&q=thread+pool+in+iis&oq=thread+pool+in+iis&gs_lcp=CgZwc3ktYWIQAxgAMgkIABDJAxAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB46CwgAELEDEIMBEMkDOggIABCxAxCDAToCCAA6CwguELEDEMcBEKMCOgUIABCxAzoICC4QsQMQgwE6DgguELEDEIMBEMkDEJMCOgIILjoICAAQsQMQyQM6CAguEMcBEK8BOg4ILhDHARCjAhDJAxCTAjoLCC4QsQMQxwEQrwE6BQguELEDOgUIABDJA1CPB1i2KGDqL2gAcAB4AIAB4QGIAagXkgEGMC4xNy4xmAEAoAEBqgEHZ3dzLXdpeg&sclient=psy-ab
+
+https://www.c-sharpcorner.com/UploadFile/f9f215/parallel-programming-part-1-introducing-task-programming-l/
+
+https://www.google.com/search?source=hp&ei=41iBX6yfB6ia4-EP7dOk4Ac&q=who+decides+how+many+tasks+run+in+parallel&oq=who+decides+how+many+tasks+run+in+parrlelle&gs_lcp=CgZwc3ktYWIQAxgAMgcIIRAKEKABMgcIIRAKEKABOgIIADoICAAQsQMQgwE6BQgAELEDOgUIABDJAzoICAAQsQMQyQM6CQgAEMkDEBYQHjoGCAAQFhAeOggIIRAWEB0QHjoECCEQFToFCCEQoAFQqARY329ghXtoAHAAeAGAAaYDiAGLQZIBCzAuMzEuMTAuMS4xmAEAoAEBqgEHZ3dzLXdpeg&sclient=psy-ab
+
+https://stackoverflow.com/questions/53964047/how-many-parallel-process-can-i-run
+
+moq database c#
+
+========================FIS Global===============
+
+ienumerator interface extension method c#
+custom exception c#
+nullable c#
+how do you validate signature jwt token c#
+
+basic building blocks of angular 6
+what is directive in angular
+ng-app angular directive
+directive used
+filter in angular 8
+pipe in typescript angular
+dependency injection in angular
+events in angular \ @output in angular
+aot in angular
+reactive form in angular 8
+ng show hide in angular 8
+
+javascript injection attack
+how to stop sql injection in c#
+xss attack prevention angular
+angular data encryption
+
+angular performance tips
+transpiling in angular
+ng for select option angular 6
+https://stackoverflow.com/questions/51009331/select-default-option-value-from-typescript-angular-6
+how to implement caching in angular 6
+can we create different instance of service in angular
+extension ienumerable c#
+https://stackoverflow.com/questions/277150/define-an-extension-method-for-ienumerablet-which-returns-ienumerablet
+polymorphism using interface in c#
+continue vs break c#
+
+https://www.javatpoint.com/angular-8-directives
+pipe in typescript angular
+https://stackoverflow.com/questions/41450226/just-in-time-jit-vs-ahead-of-time-aot-compilation-in-angular
+https://stackoverflow.com/questions/45108404/angularcli-build-and-server-aot-vs-prod/45108509
+why to choose angular over mvc
+
+input injection attacks
+
+
+===== Mercediz Benz
+nested microservices communication c#
+route params web api
+httpresponse vs iactionresult
+what does async task return c#
+types of web server  in .net
+reverse proxy used for
+what is proxy
+materialized view sql server
+store datetime in sql server in timezone
+docker image what is
+jenkins what is
+
+========VConstruct
+https://www.codeproject.com/articles/732425/ienumerable-vs-iqueryable
+view stored procedure with iqueryable
+what is component in angular
+component vs mvc
+
+==========System+
+jit in angular
+https://stackoverflow.com/questions/41450226/just-in-time-jit-vs-ahead-of-time-aot-compilation-in-angular
+aot in angular
+dockerfile stages .net
+why to choose angular over mvc
+https://exceptionnotfound.net/the-repository-service-pattern-with-dependency-injection-and-asp-net-core/
+
+https://thinknyx.com/docker-cheat-sheet/
+https://www.youtube.com/watch?v=0h-Ijdv9biA&t=57s
+
+inheritance and liskov violation
+
+
+==========Ellimae
+unit test case for extension methods c#
+interface with static
+template function c#
+linq query for pagination
+
+===============Wission technology
+void async await  
+without cast call method in class explict interface 
+task parallel library in c#
+var vs dynamic in c#
+ioexception vs filenotfoundexception c#	
+throw e vs throw c#
+	https://www.c-sharpcorner.com/blogs/difference-between-throw-and-throw-ex-in-c-sharp1
+try without catch in c#
+yield keyword in c#
+abstract class sealed c#
+Top 10 Most Important Features Of C#
+
+================Wission Tech 2nd Round
+lazy keyword 
+exception handling in mvc
+content negotiation in web api xml
+https://stackoverflow.com/questions/16922742/what-is-the-entry-point-for-an-asp-net-mvc-4-application
+asp.net mvc start point
+IEnumerable and IQueryable in C#
+Differences between Object, Var and Dynamic type
+
+https://www.geeksforgeeks.org/find-the-first-second-and-third-minimum-elements-in-an-array/
+Find Third Smallest elements in a given array
+Check a number is odd or even without modulus operator
+find a pair with maximum product in array of integers c#
+
+c# program to find duplicate elements in array
+https://stackoverflow.com/questions/20765589/finding-duplicate-integers-in-an-array-and-display-how-many-times-they-occurred
+
+Await vs Task.Result in an Async Method [duplicate]
+https://stackoverflow.com/questions/32239661/await-vs-task-result-in-an-async-method
+
+explicit interface implementation c#
+private constructor in abstract class c#
+dependency injection c# example
+
+
+
+
+
+====Capita
+var dynamic in c#
+	https://www.geeksforgeeks.org/difference-between-var-and-dynamic-in-c-sharp/
+	https://www.c-sharpcorner.com/blogs/difference-between-var-and-dynamic-in-c-sharp2
+	
+static constructor use in c#
+	https://www.c-sharpcorner.com/article/static-constructor-in-C-Sharp-and-their-usages/
+	https://stackoverflow.com/questions/4506990/what-is-the-use-of-static-constructors
+state management in asp.net mvc
+	https://www.c-sharpcorner.com/article/state-management-in-asp-net-mvc/
+	viewdata and viewbag and tempdata in mvc
+	https://www.c-sharpcorner.com/blogs/viewdata-vs-viewbag-vs-tempdata-in-mvc1
+	
+performance improvement sql server stored procedure	
+	https://www.c-sharpcorner.com/article/improve-stored-procedure-performance-in-sql-server-store-procedure-performance/
+	
+pass data from view to controller in mvc
+	https://www.c-sharpcorner.com/UploadFile/3d39b4/getting-data-from-view-to-controller-in-mvc/
+	
+	When GC Gets Triggered?
+	Factory

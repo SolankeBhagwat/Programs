@@ -1,0 +1,95 @@
+Megre vs rebase
+what is rest & why to go with asp.net core 
+what does self content mode means
+what loosely coupled means
+how branching & production issuee handled in github
+why angular don't use jquery
+
+Distrubated transaction in microservices
+how to sync data in differnet databases
+saga
+event driven programming
+why to use container
+
+
+biggest achivement done, & what is complex scenario handled.
+Project Explain with best way & what architeutre implementation.
+
+how this mechanism works rest endpoint 
+dump analysis
+performance \CPU issues.
+performance management
+
+
+pull vs fetch
+https://medium.com/@sabbirhossain_70520/git-fetch-vs-git-pull-691823ed4239
+
+How to undo a local commit
+git reset --soft HEAD^     # Use --soft if you want to keep your changes
+git reset --hard HEAD^     # Use --hard if you don't care about keeping the changes you made
+Git - Undo pushed commits
+
+git revert <commit_hash>
+git revert <oldest_commit_hash>..<latest_commit_hash>
+
+
+content negotiation how full flow
+https://code-maze.com/content-negotiation-dotnet-core/
+https://www.saksoft.com/advantages-of-web-api-over-wcf/
+
+standarad conventions for rest api
+https://restfulapi.net/resource-naming/
+https://hub.packtpub.com/best-practices-for-restful-web-services-naming-conventions-and-api-versioning-tutorial/
+https://nordicapis.com/10-best-practices-for-naming-api-endpoints/
+
+
+
+https://www.c-sharpcorner.com/article/upload-download-files-in-asp-net-core-2-0/
+https://www.horsdal-consult.dk/2019/02/building-self-contained-net-core-app-in.html
+https://www.danielcrabtree.com/blog/496/net-core-self-contained-and-framework-dependent-deployments-explained
+
+
+https://www.semanticscholar.org/paper/Performance-Analysis-of-RESTful-API-and-RabbitMQ-Hong-Yang/56cd539733d7abf2230745978629d709f3515f6f
+https://www.dotnettricks.com/learn/aspnetcore/top-20-asp-net-core-interview-questions-and-answers
+
+https://developers.redhat.com/blog/2018/10/01/patterns-for-distributed-transactions-within-a-microservices-architecture/
+https://www.educba.com/dot-net-core-vs-dot-net-framework/
+https://stackoverflow.com/questions/38063837/whats-the-difference-between-net-core-net-framework-and-xamarin
+https://devblogs.microsoft.com/cesardelatorre/net-core-1-0-net-framework-xamarin-the-whatand-when-to-use-it/#use-netcore
+
+https://stackoverflow.com/questions/2832017/what-is-the-difference-between-loose-coupling-and-tight-coupling-in-the-object-o
+
+https://stackoverflow.com/questions/44470093/handle-git-branching-for-test-and-production
+
+=================================================================================================================
+
+Representational state transfer is a software architectural style that defines a set of constraints to be used for creating Web services. Web services that conform to the REST architectural style, called RESTful Web services, provide interoperability between computer systems on the interne
+
+Fetch
+$ git fetch origin
+git fetch really only downloads new data from a remote repository - but it doesn't integrate any of this new data into your working files. Fetch is great for getting a fresh view on all the things that happened in a remote repository.
+Due to it's "harmless" nature, you can rest assured: fetch will never manipulate, destroy, or screw up anything. This means you can never fetch often enough.
+
+Pull
+$ git pull origin master
+git pull, in contrast, is used with a different goal in mind: to update your current HEAD branch with the latest changes from the remote server. This means that pull not only downloads new data; it also directly integrates it into your current working copy files. This has a couple of consequences:
+
+Since "git pull" tries to merge remote changes with your local ones, a so-called "merge conflict" can occur. 
+
+
+Short example of situation, when you need cherry pick
+
+Consider following scenario. You have two branches.
+a) release1 - This branch is going to your customer, but there are still some bugs to be fixed.
+b) master - Classic master branch, where you can for example add functionality for release2.
+NOW: You fix something in release1. Of course you need this fix also in master. And that is a typical use-case for cherry picking. So cherry pick in this scenario means that you take a commit from release1 branch and include it into the master branch.
+
+
+Merge vs Rebase
+•	Merge takes all the changes in one branch and merges them into another branch in one commit.
+•	Rebase says I want the point at which I branched to move to a new starting point
+So when do you use either one?
+Merge
+•	Let's say you have created a branch for the purpose of developing a single feature. When you want to bring those changes back to master, you probably want merge (you don't care about maintaining all of the interim commits).
+Rebase
+•	A second scenario would be if you started doing some development and then another developer made an unrelated change. You probably want to pull and then rebase to base your changes from the current version from the repository.

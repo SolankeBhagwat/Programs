@@ -1,0 +1,38 @@
+Observable vs subject
+https://stackoverflow.com/questions/47537934/what-is-the-difference-between-a-observable-and-a-subject-in-rxjs/47538989
+https://stackoverflow.com/questions/43118769/subject-vs-behaviorsubject-vs-replaysubject-in-angular
+
+new features you used c# & .net framework
+https://www.hanselman.com/blog/UsefulASPNETCore22Features.aspx	
+https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-8#default-interface-methods
+
+TPL & async await
+typescript version
+achivements
+explain all subject in angular
+
+what is use of view
+ngrx & state management
+operators used
+error mechanism in angular
+
+what is restful client
+https://www.mulesoft.com/resources/api/restful-api
+
+inbuilt design pattern in angular
+https://www.linkedin.com/pulse/design-patterns-angular-2-framework-typescript-arup-chakraborty/
+
+
+diff between interface segrigation vs liskow
+arrow in es6
+https://www.sitepoint.com/es6-arrow-functions-new-fat-concise-syntax-javascript/
+
+
+
+https://stackoverflow.com/questions/804115/when-do-you-use-git-rebase-instead-of-git-merge
+
+interface and class in typescript
+why to go with angular
+	https://www.educba.com/angular-vs-jquery/
+	https://blog.angular-university.io/why-angular-angular-vs-jquery-a-beginner-friendly-explanation-on-the-advantages-of-angular-and-mvc/
+	

@@ -1,0 +1,95 @@
+Rest vs Soap
+.net core vs .net framework
+Angular Performance issue
+
+firstordefault parameters where linq 
+https://www.tutorialsteacher.com/linq/linq-element-operator-first-firstordefault
+Controller inside controller.
+singleton dependency injection vs singleton class
+
+
+LTI
+https://www.sqlshack.com/what-is-database-normalization-in-sql-server/
+https://www.winwire.com/25-tips-to-improve-sql-query-performance/
+https://rxjs.dev/guide/subject
+
+https://www.c-sharpcorner.com/article/subject-and-behavior-subject-in-angular-8/
+lazy loading in linq
+single vs singleordefault in linq
+
+https://www.c-sharpcorner.com/article/lazy-loading-and-eager-loading-in-linq-to-sql/
+https://www.c-sharpcorner.com/blogs/singleordefault-vs-firstordefault-in-linq-query1
+
+===============================================
+======BNY Mellon
+
+async await c#
+state machine in c
+data structure interview questions
+complexity of quick sort algorithm in data structure
+algorithm list
+WPF
+
+
+https://www.codeproject.com/Articles/703634/SOLID-Architecture-Principles-Using-Simple-Csharp
+https://www.c-sharpcorner.com/article/clustered-vs-non-clustered-indexes/
+https://www.w3schools.com/sql/sql_constraints.asp
+cross join vs full outer join
+https://www.c-sharpcorner.com/article/cqrs-pattern-using-mediatr-in-net-5/
+
+
+do you created generics with custom class.
+
+Connection string
+32 bit vs 64 .list issue
+serialization and deserialization in angular
+get request to change data rest
+https://softwareengineering.stackexchange.com/questions/188860/why-shouldnt-a-get-request-change-data-on-the-server
+concat vs merge rxjs
+
+access modiefiers 
+protected internal c#
+https://stackoverflow.com/questions/585859/what-is-the-difference-between-protected-and-protected-internal
+wpf application with rest api
+
+
+======HCL
+Unique index
+Static vs partial vs sealed
+ref vs out in C#
+Cursor in SQL 
+
+=====TIAA
+http interceptor angular
+
+=============================================================
+MicroFront end
+TPL Async await
+ngrx
+Micro front end
+docker volumne
+how to pass list of records to stored procedure \ tabular data input sql
+
+
+Ngx shelf thing
+How to ensure code coverage is 100 % in pipeline
+
+Quiening mechanisam
+
+How to ensure we are passing response to that particular clinet in Quiening
+
+Quiening mechanisam
+
+async await vs promise angular 8 when to use
+What is the difference between Subject and BehaviorSubject?
+
+
+==Wolters Klower
+Contravariabnce \ Covariance in terms of EF
+TPL for for loop iteration performance
+Action \ Func Deligate
+Angular trace whole error tree.
+How to exclude some services like login, register from interceptor Angular 5, HttpClient
+
+==Delloite
+https://stackoverflow.com/questions/18209735/how-do-i-pass-variables-to-a-custom-actionfilter-in-asp-net-mvc-app

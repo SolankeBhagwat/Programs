@@ -1,0 +1,41 @@
+abstraction vs encapsulation in c#
+extension method c#
+static method vs extension method c#
+Enum
+https://www.tutorialsteacher.com/csharp/csharp-enum
+default value for enum c#
+delegate in c#
+func predicate and action in c#
+expose new functionality without touching existing system c#
+how to return multiple string values from a function in c#
+https://www.c-sharpcorner.com/UploadFile/9b86d4/how-to-return-multiple-values-from-a-function-in-C-Sharp/
+
+c# create struct object
+https://www.tutorialsteacher.com/csharp/csharp-struct
+Rules for Static Class
+https://www.tutorialsteacher.com/csharp/csharp-static
+
+var keyword in c# for static class
+generic c# example
+https://www.tutorialsteacher.com/csharp/csharp-generics
+
+throw vs throw ex c#
+action method access modifier mvc
+static action method in mvc
+convention based routing in web api constraint
+action filter mvc
+frombody c# web api What happen if complex object doesn't add [frombody] attribute
+post vs put web api
+http module which 
+union vs union all performance
+how to tune stored procedure in sql server
+https://www.c-sharpcorner.com/article/improve-stored-procedure-performance-in-sql-server-store-procedure-performance/
+
+how to retrive half record in sql query
+constraints in sql
+praimary key using constrins sql
+Replacing NULL with 0 in a SQL server query
+	SELECT ISNULL(col1, 0 ) FROM table1
+	SELECT COALESCE(col1, 0 ) FROM table1
+cast vs convert in sql
+clustered index vs non clustered index sql

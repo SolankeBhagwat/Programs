@@ -1,0 +1,163 @@
+﻿Angular Form Validation
+Angular how to reflect in child as well as main.
+Restrict generic T to specific types
+How to pass object as key in Dictionary.
+Encapsulation Example 
+Action, Func, and Predicate  Self Developed
+Observable u have created & Notify whoever using
+Don't allow for specific generic methods
+Case-INsensitive Dictionary with string key-type in C#
+import vs declaration in angular
+Main.ts file
+you don't have to create function and add other class functionality to class
+for e.g. Tyre class extend four wheeler & u have one more class call bounce then how you add it's functionality in tyre without extend it.
+How to restrict list to add new items.
+What is Reactive forms in Angular
+Types of forms
+on which hook routing happens like when we try to navigate from one component to another.-canActivate
+Where to create a Guard & it's use in Angular
+Dependency injection in Angular & how service is singleton
+Delegate u created
+Using Observable Notify to same level component.
+deferred execution operators
+on button click pass to other component
+What is better in typescript 
+higher order functions javascript
+viewchild in nested component
+cons of micro services
+saga design pattern microservices
+	https://github.com/snatch-dev/Chronicle
+ienumerable vs ireadonlylist
+linq query skip one element and get next for g. (2,4,6,8)
+remove Duplicate in array in javascript
+
+First & firstordefault
+Single & Singleordefault
+Select & selectmany
+
+Map operator in Angular
+Object Comparison /Object  Equality vs Object Identity
+remove property from passed object web api
+how map object into request API
+Types of Observables
+5 Inbuild Interfaces you Used
+Ienumrable interface methods
+Return Types & status codes rest api
+parameter binding in web api
+Exception Handling in API & in start.cs how to configure-modules-in-angular/
+app.run() vs app.use()
+programme .cs asp.net core
+asp net core execute code on startup
+.net core 3.0 startup cs \ what is use of start cs file asp.net core
+.net core startup dependency injection
+middleware asp.net core
+how to sequence middleware in asp.net core
+acid properties sql
+Dependency injection vs dependency inversion
+aggregation composition association in c#
+
+===============City Bank Interview Link
+Generics
+	https://github.com/sudheerj/angular-interview-questions
+	https://www.javapedia.net/Angular-basics#qanda1840
+	https://www.techiediaries.com/angular-rxjs-tutorial/
+	https://www.techiediaries.com/angular-routing-lazy-loading-loadchildren/
+
+===============City Bank Links to Refer===============
+
+=========.net FrameWork
+https://www.geeksforgeeks.org/common-language-runtime-clr-in-c-sharp/
+https://dotnettutorials.net/lesson/common-language-runtime-dotnet/
+
+=========Anuglar
+https://www.javatpoint.com/angular-7-files-explanation
+https://upgradetoangular.com/angular-news/the-angular-cli-is-a-great-way-to-build-your-angular-app-but-what-it-does-can-be-a-mystery-what-are-those-files-it-generates/
+https://www.freelancermap.com/blog/using-forroot-and-forchild-to-configure-modules-in-angular/
+https://github.com/Yonet/Angular-Interview-Questions/blob/master/router.md
+https://fireship.io/lessons/sharing-data-between-angular-components-four-methods/	
+https://modev.net/angular-6-implement-auth-guard-to-your-project/
+https://stackoverflow.com/questions/36198785/how-do-i-create-a-singleton-service-in-angular-2
+https://engineering.datorama.com/accessing-a-components-grandchildren-in-angular-ea15008828ea
+
+=========C#
+https://www.c-sharpcorner.com/UploadFile/ashish_2008/constraints-in-generics/
+https://www.c-sharpcorner.com/UploadFile/b1df45/generic-type-constraint-where-keyword-in-C-Sharp/
+https://stackoverflow.com/questions/634826/using-the-field-of-an-object-as-a-generic-dictionary-key
+https://stackoverflow.com/questions/13988643/case-insensitive-dictionary-with-string-key-type-in-c-sharp
+https://stackoverflow.com/questions/40537430/a-way-to-extend-existing-class-without-creating-new-class-in-c-sharp
+https://stackoverflow.com/questions/1531113/how-to-restrict-to-add-an-item-to-listt
+https://stackoverflow.com/questions/27855303/ienumerablet-vs-ireadonlylistt
+https://stackoverflow.com/questions/24880268/ienumerable-vs-ireadonlycollection-vs-readonlycollection-for-exposing-a-list-mem/32650559
+https://www.c-sharpcorner.com/article/what-is-deferred-lazy-loading-and-eager-loading/
+https://www.dotnetcurry.com/linq/750/deferred-vs-immediate-query-execution-linq
+https://www.c-sharpcorner.com/UploadFile/ff2f08/ref-vs-out-keywords-in-C-Sharp/
+
+https://www.codeproject.com/Articles/703634/SOLID-Architecture-Principles-Using-Simple-Csharp
+=========.net Core Rest API
+https://docs.microsoft.com/en-us/aspnet/web-api/overview/getting-started-with-aspnet-web-api/action-results
+https://www.tutorialsteacher.com/core/aspnet-core-program
+https://www.talkingdotnet.com/app-use-vs-app-run-asp-net-core-middleware/
+
+=========MicroServices
+https://www.javatpoint.com/advantges-and-disadvantages-of-microservices
+
+=========JavaScript
+https://www.guru99.com/typescript-vs-javascript.html
+https://blog.bitsrc.io/understanding-higher-order-functions-in-javascript-75461803bad
+
+=========SQL
+https://www.w3schools.com/sql/sql_constraints.asp
+
+===============City Bank Answers
+
+Closures in JavaScript with Example
+A closure is an inner function that has access to the variables in the outer (enclosing) function’s scope chain. The closure has access to variables in three scopes; specifically: (1) variable in its own scope, (2) variables in the enclosing function’s scope, and (3) global variables.
+Here is an example:
+var globalVar = "xyz";
+
+(function outerFunc(outerArg) {
+    var outerVar = 'a';
+    
+    (function innerFunc(innerArg) {
+    var innerVar = 'b';
+    
+    console.log(
+        "outerArg = " + outerArg + "\n" +
+        "innerArg = " + innerArg + "\n" +
+        "outerVar = " + outerVar + "\n" +
+        "innerVar = " + innerVar + "\n" +
+        "globalVar = " + globalVar);
+    
+    })(456);
+})(123);
+In the above example, variables from innerFunc, outerFunc, and the global namespace are all in scope in the innerFunc. The above code will therefore produce the following output:
+outerArg = 123
+innerArg = 456
+outerVar = a
+innerVar = b
+globalVar = xyz
+
+
+a closure gives you access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time.
+
+========================================================================================================================================
+It feels just like writing JavaScript, but with a thin layer of type annotations that bring you the familiar advantages of static typing.
+========================================================================================================================================
+
+Higher-Order Functions
+Higher order functions are functions that operate on other functions, either by taking them as arguments or by returning them. In simple words, A Higher-Order function is a function that receives a function as an argument or returns the function as output.
+For example, Array.prototype.map, Array.prototype.filter and
+
+Sort String Array As Int
+var result = MyList.OrderBy(o => int.Parse(o.ToString() ) ).ToList();
+========================================================================================================================================
+You use Dictionary<TKey,TValue> when you need to store values with some unique keys associated to them, and accessing them by that key is convenient for you.
+========================================================================================================================================
+remove Duplicate in array in javascript
+Updated answer for ES6/ES2015: Using the Set, the single line solution is:
+var items = [4,5,4,6,3,4,5,2,23,1,4,4,4]
+var uniqueItems = Array.from(new Set(items))
+Which returns
+
+[4, 5, 6, 3, 2, 23, 1]
+========================================================================================================================================
