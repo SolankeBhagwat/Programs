@@ -82,6 +82,8 @@ Quiening mechanisam
 
 async await vs promise angular 8 when to use
 What is the difference between Subject and BehaviorSubject?
+Racecondition and deadlock?
+monitor vs lock?
 
 
 ==Wolters Klower
