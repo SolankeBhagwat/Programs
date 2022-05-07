@@ -84,6 +84,14 @@ async await vs promise angular 8 when to use
 What is the difference between Subject and BehaviorSubject?
 Racecondition and deadlock?
 monitor vs lock?
+what is cache busting in EF?  http://codethug.com/2016/02/19/Entity-Framework-Cache-Busting/
+Difference between ObjectContext and DBContext?
+How to execute sp in EF?
+What are features of EF?
+Identity Map in EF?
+Concurrency in EF?  Last Wins, Pessimestic Concurrency, Optimistic Concurrency.
+https://www.learnentityframeworkcore.com/concurrency
+
 
 
 ==Wolters Klower
