@@ -87,7 +87,7 @@ monitor vs lock?
 what is cache busting in EF?  http://codethug.com/2016/02/19/Entity-Framework-Cache-Busting/
 Difference between ObjectContext and DBContext?
 How to execute sp in EF?
-What are features of EF?
+What are features of EF? Cachin,TRanscation management, Concurrency,Configurations(Annotation,FLUENT API),Change Tracking,Cross-platform,Querying,Modelling.
 Identity Map in EF?
 Concurrency in EF?  Last Wins, Pessimestic Concurrency, Optimistic Concurrency.
 https://www.learnentityframeworkcore.com/concurrency
