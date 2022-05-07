@@ -93,6 +93,11 @@ Concurrency in EF?  Last Wins, Pessimestic Concurrency, Optimistic Concurrency.
 https://www.learnentityframeworkcore.com/concurrency
 
 
+Precision is the main difference.
+Float - 7 digits (32 bit)
+Double-15-16 digits (64 bit)
+Decimal -28-29 significant digits (128 bit)
+
 
 ==Wolters Klower
 Contravariabnce \ Covariance in terms of EF
