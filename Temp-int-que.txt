@@ -7,7 +7,7 @@ https://www.tutorialsteacher.com/linq/linq-element-operator-first-firstordefault
 Controller inside controller.
 singleton dependency injection vs singleton class
 
-
+https://michaelscodingspot.com/cache-implementations-in-csharp-net/
 LTI
 https://www.sqlshack.com/what-is-database-normalization-in-sql-server/
 https://www.winwire.com/25-tips-to-improve-sql-query-performance/
